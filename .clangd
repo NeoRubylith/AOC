@@ -1,0 +1,5 @@
+If:
+	PathMatch: [.*\.h, .*\.c]
+
+CompileFlags: # Tweak the parse settings
+  Add: [-march=native, -mavx2, -Wall]
